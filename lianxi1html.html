@@ -15,10 +15,11 @@
 
 <a href="http://www.baidu.com" > <img src="maomi.jpg" ></a>>
 
-<table border="1">
+<table  border="1">
     <tr>
          <td> <p>这是一个段落</p>
-              <p>这是一个段落</p>  </td>
+              <p>这是一个段落</p>
+         </td>
          <td>   这个单元包含一个表格：<table border="1">
                                          <tr>
                                              <td>A</td>  <td>B</td>
@@ -43,15 +44,15 @@
 
 <table border="1">
 横跨两列的单元格：
-<tr>
-<td>电话</td>
-<td  colspan="2">   </td>
-</tr>
-<tr>
-<td>姓名</td>
-<td>年龄</td>
-<td>性别</td>
-</tr>
+    <tr>
+          <td>电话</td>
+          <td  colspan="2">   </td>
+     </tr>
+     <tr>
+          <td>姓名</td>
+          <td>年龄</td>
+          <td>性别</td>
+     </tr>
 </table>
 
 
@@ -73,12 +74,12 @@
 
 
 <form>
-我喜欢汽车：<input type="checkbox" name="1"><br>
+我喜欢汽车：<input checked type="checkbox" name="1"><br>
 我喜欢自行车：<input type="checkbox" name="1">
 </form>
 <br>
 <form>
-男性：<input type="radio" name="1" ><br>
+男性：<input checked type="radio" name="1" ><br>
 女性：<input type="radio" name="1" >
 </form>
 
@@ -87,14 +88,16 @@
     <select name="cars">
         <option value="volvo">Volvo</option>
         <option value="saab">Saab</option>
-        <option value="fiat" selected="selected">Fiat</option>
-        <option value="audi">Audi</option>
+        <option value="fiat" >Fiat</option>
+        <option value="audi" selected="selected">Audi</option>
     </select>
 </form>
 <form>
+<br>
+
 
 <form>
-<select multiple="multiple" size="3">
+<select multiple="multiple" size="4">
     <option value="volvo">Volvo</option>
     <option value="saab">Saab</option>
     <option value="fiat" selected="selected">Fiat</option>
@@ -103,9 +106,8 @@
 </form>
 <br>
 
-<form>
-    <textarea name="1" cols="10" rowa="10">fjwbfhjbfhwebfhjweb</textarea>
-</form>
+    <textarea cols="10" rowa="10">fjwbfhjbfhwebfhjweb</textarea>
+
 <br>
 <form>
     <input type="button" value="按钮">
@@ -128,6 +130,5 @@
 <img src="maomi.jpg" width="50" height="50">
 <img src="maomi.jpg" width="100" height="100">
 <img src="maomi.jpg" width="200" height="200">
-
 </body>
 </html>
