@@ -1,0 +1,174 @@
+*{
+    margin:0;
+    padding:0;
+}
+.clearfix:after{
+    clear: both;
+    content: " ";
+    display: block;
+}
+@font-face {font-family: "iconfont";
+    src: url('../font/iconfont.eot?t=1516200194204'); /* IE9*/
+    src: url('../font/iconfont.eot?t=1516200194204#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('data:application/x-font-woff;charset=utf-8;base64,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') format('woff'),
+    url('../font/iconfont.ttf?t=1516200194204') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+    url('../font/iconfont.svg?t=1516200194204#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+    font-family:"iconfont" !important;
+    font-size:16px;
+    font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+/*content start*/
+.content{
+    width:1226px;
+    height: 644px;
+    margin: 0 auto;
+    background-image: url("../imag/xmad.jpg");
+    background-repeat: no-repeat;
+}
+.content .con-left{
+    width: 234px;
+    height: 460px;
+    background-color:rgba(0,0,0,0.7);
+}
+.content .con-left ul{
+    list-style-type: none;
+    padding: 20px 0;
+}
+.content .con-left a{
+    display: inline-block;
+    padding-left: 30px;
+    width: 204px;
+    height: 42px;
+    color:white;
+    font-size: 14px;
+    line-height: 42px;
+    position: relative;
+}
+.content .con-left a:hover{
+    background-color: #f67000;
+}
+a{
+    text-decoration: none;
+}
+i{
+    position: absolute;
+    right: 20px;
+}
+/*.content .con-right{*/
+    /*width: 992px;*/
+    /*height: 460px;*/
+/*}*/
+.content .point{
+    width: 200px;
+    height: 29px;
+    float: right;
+    position: relative;
+    top: -46px;
+    right: 35px;
+}
+/*.content .point .a{*/
+    /*width: 11px;*/
+    /*height: 11px;*/
+    /*border-radius: 50%;*/
+    /*!*background-color: #b0b0b0;*!*/
+    /*margin: 4px;*/
+    /*position: relative;*/
+    /*top: -34px;*/
+    /*right: 34px;*/
+/*}*/
+.content .point .aa{
+    display: block;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    /*background-color: #333;*/
+    position: relative;
+    top: 2px;
+    right: 2px;
+    /*border: 2px solid rgba(255,255,255,0.9);*/
+    background-color: #333;
+    border: 2px solid #fff;
+    border-color: rgba(255,255,255,0.3);
+    float: left;
+    margin: 3px;
+}
+.content .point .aa:hover{
+    background-color:grey;
+}
+.content .slip-left{
+    position: relative;
+    /*width: 500px;*/
+    /*height: 40px;*/
+    top: -269px;
+    right: -220px;
+    color: #e0e0e0;
+    float: right;
+}
+.content .slip-right{
+    position: relative;
+    /*width: 500px;*/
+    /*height: 40px;*/
+    top: -273px;
+    right: 724px;
+    color: #e0e0e0;
+    float: right;
+}
+.content .slip i{
+    font-size: 50px;
+}
+.content .slip i{
+    display: block;
+    /*background: 20px 30px;*/
+}
+/*.content .slip a:hover{*/
+    /*background-color: #424242;*/
+    /*color: #e0e0e0;*/
+/*}*/
+.content .slip i:hover{
+    background-color: #424242;
+    color:white;
+    opacity: 0.8;
+}
+.content .bottom-first{
+    width: 234px;
+    height: 170px;
+    background:grey;
+    margin-top: 15px;
+}
+.content .bottom-first i{
+    padding: 40px 10px;
+    position: relative;
+    top: -5px;
+    right: -3px;
+}
+.content .bottom-first li{
+    position:relative;
+    float:left;
+    width: 70px;
+    height: 82px;
+    padding: 0 3px;
+    list-style-type: none;
+    top: 20px;
+    right: 10px;
+
+}
+.content .bottom-first span{
+    display: block;
+    position: relative;
+    top: 10px;
+    bottom: 10px;
+}
+.content .bottom-first ul{
+    margin: 0;
+    padding: 3px;
+    list-style-type: none;
+    font-size: 12px;
+    text-align: center;
+}
+
+/*content end*/
