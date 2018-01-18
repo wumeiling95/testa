@@ -170,5 +170,27 @@ i{
     font-size: 12px;
     text-align: center;
 }
+.content .bottom-first a{
+    /*list-style-type: none;*/
+    color:#616161;
+}
+.content .bottom-first a:hover{
 
+    color: floralwhite;
+}
+.content .bottom-img{
+    float: left;
+    height:316px;
+    width: 318px;
+    margin-left: 14px;
+}
+.content .bottom-img img{
+    height:170px;
+    width: 316px;
+}
+.content{
+    width: 1226px;
+    height: 230px;
+    position:absolute;
+}
 /*content end*/
