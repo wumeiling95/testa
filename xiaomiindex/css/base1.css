@@ -310,7 +310,7 @@ a{
 .container{
     width:1226px;
     height: 450px;
-    overflow: auto;
+    overflow:hidden;
     /*margin-top: 25px;*/
 }
 .container .con-bar{
@@ -349,7 +349,7 @@ a{
     color: #ff6700;
 }
 .container .star{
-    width: 2480px;
+    width: 2580px;
     height: 380px;
     position: relative;
 }
@@ -361,7 +361,6 @@ a{
     height: 340px;
     /*padding-top: 39px;*/
     text-align: center;
-
 }
 .container li{
     width: 236px;
@@ -391,8 +390,8 @@ a{
     color: #ff6700;
 }
 .container .star .hidden{
-    width: 1260px;
-    height: 340px;
+    /*width: 1260px;*/
+    /*height: 340px;*/
     overflow: hidden;
 }
 .container .star .one{
